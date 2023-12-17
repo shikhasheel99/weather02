@@ -1,0 +1,89 @@
+#root {
+ 
+  margin: 0 auto;
+ 
+  text-align: center;
+}
+
+body{
+    background-image: url('./assets/weather background.jpg'); 
+  background-size: cover;
+}
+
+
+
+.uidiv {
+  display: inline-block;
+  background-color: hsla(300, 20%, 78%, 0.5);
+    height: 30vh;
+  width: 50vw;
+  border-radius: 40px;
+  align-items: center;
+padding: 2rem;
+margin-top: 2rem;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f1eeee;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+  
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.contentBox{
+  align-items: center;
+ 
+}
+label{
+  font-weight: bolder;
+  gap: 30px;
+}
+input{
+  border-radius: 10px;
+  margin: 20px;
+  height: 20px;
+}
+button{
+  margin-top: 10px;
+}
+
+
+.Humidity .Wind{
+  display: flex;
+}
+.info-container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+@media  screen and (max-width: 600px) {
+  .uidiv{
+    height: 50vh;
+    width: 60vw;  }
+}
+
+@media  screen and (min-width: 600px) {
+  .uidiv{
+    height: 40vh;
+    width: 50vw;  }
+}
